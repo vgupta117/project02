@@ -6,13 +6,6 @@ body {
   );
 }
 
-.header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
-}
-
 h1 {
   text-align: center;
   color: white;
@@ -31,7 +24,7 @@ h3 {
   padding: 5px;
 }
 img {
-  border: 2px solid white;
+  border: 3px solid rgb(199, 199, 199);
   outline: 4px dashed black;
   display: block;
   margin-left: auto;
@@ -99,4 +92,23 @@ h3 {
   font-style: italic;
   text-decoration: underline overline;
   text-shadow: 1px 1px #ff6a5c;
+}
+
+.container {
+  display: block;
+  grid-gap: 25px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 15px;
+}
+
+footer {
+  font-style: bold;
+  width: 100%;
+  bottom: 0;
+  background-color: #000;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  margin-left: 0;
 }
