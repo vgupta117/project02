@@ -1,82 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="site icon" href="images/city-logo.ico" />
+    <title>San Francisco</title>
+  </head>
+  <body>
     <!-- navBar -->
-    <nav>
-        <ul><a href=""></a>
-            <li><a href="city 1.html">Giza</a></li>
-            <li><a href="city 2.html">New York City</a></li>
-            <li><a href="city 3.html">Rochester</a></li>
-            <li><a href="city 4.html">San Francisco</a></li>
-        </ul>
+    <nav class="menu">
+      <ul>
+        <li><a href="city 1.html">Giza</a></li>
+        <li><a href="city 2.html">New York City</a></li>
+        <li><a href="city 3.html">Rochester</a></li>
+        <li><a class="is-current" href="city 4.html">San Francisco</a></li>
+      </ul>
     </nav>
     <main>
-        <section>
-            <h1>City Name</h1>
-            <!-- Symbol of city -->
-        </section>
-        <section>
-            <!-- Short Description -->
-            <h2>About the City</h2>
-            <!-- Photo of landmark  -->
-            <p>
-                San Francisco, officially the City and County of San Francisco, 
-                is a cultural, commercial, and financial center of Northern California. 
-                 San Francisco is part of the 12th-largest metropolitan statistical area 
-                 in the United States by population, with 4.7 million people, and the fourth-largest 
-                 by economic output, with GDP of $592 billion in 2019. With San Jose, it forms the fifth 
-                 most populous combined statistical area in the United States, with 9.67 million residents 
-                 as of 2019. Colloquial nicknames for San Francisco include The City, SF, Frisco and San Fran.
-            </p>
-          
-            <article>
-                <h3>Stats about the city</h3>
-                <ul>
-                    <li>Area: 46.87 mi²</li>
-                    <li>Population: 874,961</li>
-                </ul>
-            </article>
+      <section>
+        <h1>San Francisco</h1>
+        <img src="images/sanfrancisco-symbol.jpg" alt="sanfrancisco-symbol" />
+        <!-- Symbol of city -->
+      </section>
+      <div class="info-container">
+        <section class="info-item">
+          <!-- Short Description -->
+          <h2>About the City</h2>
+          <img
+            src="images/sanfrancisco-skyline.jpg"
+            alt="sanfrancisco-symbol"
+          />
+          <!-- Photo of landmark  -->
+          <p>
+            San Francisco, officially the City and County of San Francisco, is a
+            cultural, commercial, and financial center of Northern California.
+            San Francisco is part of the 12th-largest metropolitan statistical
+            area in the United States by population, with 4.7 million people,
+            and the fourth-largest by economic output, with GDP of $592 billion
+            in 2019. With San Jose, it forms the fifth most populous combined
+            statistical area in the United States, with 9.67 million residents
+            as of 2019. Colloquial nicknames for San Francisco include The City,
+            SF, Frisco and San Fran.
+          </p>
 
+          <article>
+            <h3>Stats about the city</h3>
+            <ul>
+              <li>Area: 46.87 mi²</li>
+              <li>Population: 874,961</li>
+            </ul>
+          </article>
         </section>
 
         <!-- Culture -->
-        <section>
-            <h2>Culture</h2>
-            <ul>
-                <li>History
-                    <p>Perched atop hills and filled-in marshland at the entrance to one of the Pacific’s largest natural harbors, San Francisco has had an outsized influence on the history of California and the United States. Originally a Spanish (later Mexican) mission and pueblo, it was conquered by the United States in 1846 and by an invading army of prospectors following the 1848 discovery of gold in its hinterland. The Gold Rush made San Francisco a cosmopolitan metropolis with a frontier edge. The great 1906 earthquake and fire destroyed much of the city but barely slowed its momentum; San Francisco barreled through the 20th century as a center of wealth, military power, progressive culture and high technology.
-                    </p>
-
-                </li>
-                <li>Food
-                    <p>The city is the birthplace of the local variety of sourdough bread, the Mission burrito, and steam beer. Fisherman's Wharf has served local specialty Dungeness crab for decades. Food companies include Anchor Brewing Company, Boudin Bakery, the Ghirardelli Chocolate Company. Famous past and present restaurants include the Tonga Room, Fleur de Lys, Greens, Original Joe's, Stars, Vesuvio Cafe and the Top of the Mark. California Cuisine and fusion cuisine are prominent in the city. Food trucks are a source of ethnically diverse, and gourmet street foods, with concentrations of various trucks at regular times and places
-                    </p>
-                </li>
-                <li>Music
-                    <p>The San Francisco sound refers to rock music performed live and recorded by San Francisco-based rock groups of the mid-1960s to early 1970s. It was associated with the counterculture community in San Francisco, particularly the Haight-Ashbury district, during these years.[1] San Francisco is a westward-looking port city, a city that at the time was 'big enough' but not manic like New York City or spread out like Los Angeles. Hence, it could support a 'scene'.[2] According to journalist Ed Vulliamy, "A core of Haight Ashbury bands played with each other, for each other"
-                    </p>
-
-                </li>
-                <li>Places to visit
-                    <ul>
-                        <li>Golden Gate Bridge</li>
-                        <li>Golden Gate Park</li>
-                        <li>Union Square</li>
-                        <li>Lombard Street</li>
-                        <li>PIER 39</li>
-                    </ul>
-
-                </li>
-            </ul>
+        <section class="info-item">
+          <h2>Culture</h2>
+          <ul class="flow-boxes">
+            <li>
+              <strong>History</strong>
+              <p>
+                Perched atop hills and filled-in marshland at the entrance to
+                one of the Pacific’s largest natural harbors, San Francisco has
+                had an outsized influence on the history of California and the
+                United States. Originally a Spanish (later Mexican) mission and
+                pueblo, it was conquered by the United States in 1846 and by an
+                invading army of prospectors following the 1848 discovery of
+                gold in its hinterland. The Gold Rush made San Francisco a
+                cosmopolitan metropolis with a frontier edge. The great 1906
+                earthquake and fire destroyed much of the city but barely slowed
+                its momentum; San Francisco barreled through the 20th century as
+                a center of wealth, military power, progressive culture and high
+                technology.
+              </p>
+            </li>
+            <li>
+              <strong>Food</strong>
+              <p>
+                The city is the birthplace of the local variety of sourdough
+                bread, the Mission burrito, and steam beer. Fisherman's Wharf
+                has served local specialty Dungeness crab for decades. Food
+                companies include Anchor Brewing Company, Boudin Bakery, the
+                Ghirardelli Chocolate Company. Famous past and present
+                restaurants include the Tonga Room, Fleur de Lys, Greens,
+                Original Joe's, Stars, Vesuvio Cafe and the Top of the Mark.
+                California Cuisine and fusion cuisine are prominent in the city.
+                Food trucks are a source of ethnically diverse, and gourmet
+                street foods, with concentrations of various trucks at regular
+                times and places
+              </p>
+            </li>
+            <li>
+              <strong>Music</strong>
+              <p>
+                The San Francisco sound refers to rock music performed live and
+                recorded by San Francisco-based rock groups of the mid-1960s to
+                early 1970s. It was associated with the counterculture community
+                in San Francisco, particularly the Haight-Ashbury district,
+                during these years.[1] San Francisco is a westward-looking port
+                city, a city that at the time was 'big enough' but not manic
+                like New York City or spread out like Los Angeles. Hence, it
+                could support a 'scene'.[2] According to journalist Ed Vulliamy,
+                "A core of Haight Ashbury bands played with each other, for each
+                other"
+              </p>
+            </li>
+            <li>
+              <strong>Places to visit</strong>
+              <ul>
+                <li>Golden Gate Bridge</li>
+                <li>Golden Gate Park</li>
+                <li>Union Square</li>
+                <li>Lombard Street</li>
+                <li>PIER 39</li>
+              </ul>
+            </li>
+          </ul>
         </section>
+      </div>
     </main>
-   
-</body>
+  </body>
 </html>

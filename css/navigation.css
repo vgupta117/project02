@@ -1,0 +1,30 @@
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  background: white;
+  border: 2px solid black;
+  background: white;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  border: 2px solid #5c95ff;
+  background-color: #ffffff;
+  color: #000;
+}
+.menu a.is-current {
+  border: 2px solid #ff6a5c;
+  background-color: #000;
+  color: #fff;
+}
+.menu li {
+  padding: 5px;
+}

@@ -1,82 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <nav>
-        <ul><a href=""></a>
-            <li><a href="city 1.html">Giza</a></li>
-            <li><a href="city 2.html">New York City</a></li>
-            <li><a href="city 3.html">Rochester</a></li>
-            <li><a href="city 4.html">San Francisco</a></li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="site icon" href="images/city-logo.ico" />
+    <title>Rochester</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="city 1.html">Giza</a></li>
+        <li><a href="city 2.html">New York City</a></li>
+        <li><a class="is-current" href="city 3.html">Rochester</a></li>
+        <li><a href="city 4.html">San Francisco</a></li>
+      </ul>
     </nav>
     <main>
-        <section>
-            <h1>Rochester</h1>
-            <!-- Symbol of city -->
-        </section>
-        <section>
-            <!-- Short Description -->
-            <h2>About the City</h2>
-            <!-- Photo of landmark  -->
-            <p>
-                Rochester is a city in the U.S. state of New York, the seat of Monroe CountyThe city 
-                of Rochester forms the core of a much larger metropolitan area with a population of around 
-                1.1 million people, across six counties.
-                Rochester was one of the United States' first boomtowns, initially due to the fertile Genesee 
-                River Valley, which gave rise to numerous flour mills, and then as a manufacturing center, which 
-                spurred further rapid population growth. The city rose to prominence as the birthplace and home of 
-                some of America's most iconic companies, by which the region became a global center for science, 
-                technology, and research and development. 
-            </p>
-          
-            <article>
-                <h3>Stats about the city</h3>
-                <ul>
-                    <li>Area: 37.17 mi²</li>
-                    <li>Population: 206,848</li>
-                </ul>
-            </article>
+      <section>
+        <h1>Rochester</h1>
+        <img src="images/rochester-symbol.jpg" alt="rochester s-symbol" />
+        <!-- Symbol of city -->
+      </section>
+      <div class="info-container">
+        <section class="info-item">
+          <!-- Short Description -->
+          <h2>About the City</h2>
+          <img src="images/rochester-skyline.jpg" alt="rochester-symbol" />
+          <!-- Photo of landmark  -->
+          <p>
+            Rochester is a city in the U.S. state of New York, the seat of
+            Monroe CountyThe city of Rochester forms the core of a much larger
+            metropolitan area with a population of around 1.1 million people,
+            across six counties. Rochester was one of the United States' first
+            boomtowns, initially due to the fertile Genesee River Valley, which
+            gave rise to numerous flour mills, and then as a manufacturing
+            center, which spurred further rapid population growth. The city rose
+            to prominence as the birthplace and home of some of America's most
+            iconic companies, by which the region became a global center for
+            science, technology, and research and development.
+          </p>
 
+          <article>
+            <h3>Stats about the city</h3>
+            <ul>
+              <li>Area: 37.17 mi²</li>
+              <li>Population: 206,848</li>
+            </ul>
+          </article>
         </section>
 
         <!-- Culture -->
-        <section>
-            <h2>Culture</h2>
-            <ul>
-                <li>History
-                    <p>Settlement began in the late 18th century, and the city flourished with the opening of the Erie Canal. It became a major manufacturing center, and attracted many Italians, Germans, Irish and other immigrants, as well as a dominant group of Yankees of New England origin. The Yankees made Rochester the center of multiple reform movements, such as abolitionism and women's rights. It was famous as the center of the American photography industry, with headquarters of Eastman Kodak. In the 1970s it became fashionable to call the industrial cities along the Great Lakes 'rustbelt cities' following the move away from steel, chemical and other hard goods manufacturing. Rochester, with the presence of Ritter-Pfaulder, Bausch and Lomb, Eastman Kodak, Xerox, Gannett and other major industries, defied the trend for many decades following WWII.
-                    </p>
-
-                </li>
-                <li>Cuisine
-                    <p>One food product Rochester calls its own is the "white hot", a variant of the hot dog or smoked bratwurst made by the local Zweigle's company and other companies.[97][98] Another local specialty is the "Garbage Plate", a trademark of Nick Tahou Hots that traditionally includes macaroni salad, home fries, and two hot dogs or cheeseburgers topped with mustard, onions, and their famous meat hot sauce. Many area restaurants feature copies or variations with the word "plate" commonly used as a general term. Rochester was home to French's Mustard, whose address was 1 Mustard Street
-                    </p>
-                </li>
-                <li>Music
-                    <p>The Eastman School of Music is the professional school of music of the University of Rochester in Rochester, New York. It was established in 1921 by industrialist and philanthropist George Eastman.
-                        It offers Bachelor of Music (B.M.) degrees, Master of Arts (M.A.) degrees, Master of Music (M.M.) degrees, Doctor of Philosophy (Ph.D.) degrees, and Doctor of Musical Arts (D.M.A.) degrees in many musical fields. The school also awards a "Performer's Certificate" or "Artist's Diploma". In 2015, there were more than 900 students enrolled in the collegiate division of the Eastman School (approximately 500 undergraduate and 400 graduate students). Students came from almost every state of the United States, with approximately 25% foreign students. 
-                    </p>
-
-                </li>
-                <li>Places to visit
-                    <ul>
-                        <li>Strong Mueseum</li>
-                        <li>Seneca Park Zoo</li>
-                        <li>George Eastman Museum</li>
-                        <li>Rochester Museum and Science Center</li>
-                        <li>Highland Park</li>
-                    </ul>
-
-                </li>
-            </ul>
+        <section class="info-item">
+          <h2>Culture</h2>
+          <ul class="flow-boxes">
+            <li>
+              <strong>History</strong>
+              <p>
+                Settlement began in the late 18th century, and the city
+                flourished with the opening of the Erie Canal. It became a major
+                manufacturing center, and attracted many Italians, Germans,
+                Irish and other immigrants, as well as a dominant group of
+                Yankees of New England origin. The Yankees made Rochester the
+                center of multiple reform movements, such as abolitionism and
+                women's rights. It was famous as the center of the American
+                photography industry, with headquarters of Eastman Kodak. In the
+                1970s it became fashionable to call the industrial cities along
+                the Great Lakes 'rustbelt cities' following the move away from
+                steel, chemical and other hard goods manufacturing. Rochester,
+                with the presence of Ritter-Pfaulder, Bausch and Lomb, Eastman
+                Kodak, Xerox, Gannett and other major industries, defied the
+                trend for many decades following WWII.
+              </p>
+            </li>
+            <li>
+              <strong>Cuisine</strong>
+              <p>
+                One food product Rochester calls its own is the "white hot", a
+                variant of the hot dog or smoked bratwurst made by the local
+                Zweigle's company and other companies.[97][98] Another local
+                specialty is the "Garbage Plate", a trademark of Nick Tahou Hots
+                that traditionally includes macaroni salad, home fries, and two
+                hot dogs or cheeseburgers topped with mustard, onions, and their
+                famous meat hot sauce. Many area restaurants feature copies or
+                variations with the word "plate" commonly used as a general
+                term. Rochester was home to French's Mustard, whose address was
+                1 Mustard Street
+              </p>
+            </li>
+            <li>
+              <strong>Music</strong>
+              <p>
+                The Eastman School of Music is the professional school of music
+                of the University of Rochester in Rochester, New York. It was
+                established in 1921 by industrialist and philanthropist George
+                Eastman. It offers Bachelor of Music (B.M.) degrees, Master of
+                Arts (M.A.) degrees, Master of Music (M.M.) degrees, Doctor of
+                Philosophy (Ph.D.) degrees, and Doctor of Musical Arts (D.M.A.)
+                degrees in many musical fields. The school also awards a
+                "Performer's Certificate" or "Artist's Diploma". In 2015, there
+                were more than 900 students enrolled in the collegiate division
+                of the Eastman School (approximately 500 undergraduate and 400
+                graduate students). Students came from almost every state of the
+                United States, with approximately 25% foreign students.
+              </p>
+            </li>
+            <li>
+              <strong>Places to visit</strong>
+              <ul>
+                <li>Strong Mueseum</li>
+                <li>Seneca Park Zoo</li>
+                <li>George Eastman Museum</li>
+                <li>Rochester Museum and Science Center</li>
+                <li>Highland Park</li>
+              </ul>
+            </li>
+          </ul>
         </section>
+      </div>
     </main>
-   
-</body>
+  </body>
 </html>
