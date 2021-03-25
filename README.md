@@ -1,7 +1,7 @@
-# Project 1: Information Architected Website
+# Project 2: Website Showcasing Princeples of Page Design 
 
 ### Team Manila (ManilaCity)
 
-- Information Architect: Aman Shrestha
-- Visual Designer: Tasheem Brown
-- Technician: Aman Shrestha
+- Information Architect: Jennifer Ngene
+- Visual Designer: Bianca Hall
+- Technician: Vikram Gupta
