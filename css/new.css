@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@900&display=swap');
 
-* { border: 1px solid hotpink; }
+/* { border: 1px solid hotpink; }*/
 
 * { /* resets */
   margin: 0px;
@@ -10,13 +10,15 @@
 
 body {
   width: 100vw;
-  height: 100vh;
-  color: #202020;
+  height: 100%;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   background-image: url("../images/index-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #666666;
 }
 
 .container {
@@ -45,9 +47,16 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  font-weight: 700;
 }
 
 nav li { margin: 0px 0px 0px 65px; }
+
+nav li a:visited, nav li { color: white; }
+nav li a:hover, nav li a:active, nav ul { color: #FFC107; }
+a:link {
+  color: white;
+}
 
 main {
   margin-top: 25em;
@@ -81,8 +90,12 @@ main {
   text-decoration: none;
   padding: 25px 45px;
   border-radius: 10px;
+  background-color: #FFC107;
+  font-weight: 700;
+  color: black;
 }
 
+a:hover.btn { color: white; }
 
 
 
