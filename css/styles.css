@@ -112,3 +112,15 @@ footer {
   font-style: italic;
   margin-left: 0;
 }
+
+.figRight{
+	float: right;
+}
+
+.figLeft{
+	float: left;
+}
+figcaption{
+	font-size: 14px;
+	font-style: italic;
+}
