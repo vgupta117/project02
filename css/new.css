@@ -65,8 +65,9 @@ main {
 }
 .explore {
   grid-area: explore;
-  text-align: right;
-  padding-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .btn {
