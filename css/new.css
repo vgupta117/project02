@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@900&display=swap');
+
 * { border: 1px solid hotpink; }
 
 * { /* resets */
@@ -10,6 +12,7 @@ body {
   width: 100vw;
   height: 100vh;
   color: #202020;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -47,20 +50,30 @@ main {
   grid-template-rows: 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
-    "heading ."
+    "heading explore"
     "paragraph explore";
 }
 
-.heading { grid-area: heading; }
-.paragraph { grid-area: paragraph; }
+.heading {
+  grid-area: heading;
+  font-family: 'Playfair Display', serif;
+}
+.paragraph {
+  grid-area: paragraph;
+  margin-top: 0.5em;
+  line-height: 1.7em;
+}
 .explore {
   grid-area: explore;
   text-align: right;
+  padding-top: 3em;
 }
 
-
-
-
+.btn {
+  text-decoration: none;
+  padding: 25px 45px;
+  border-radius: 10px;
+}
 
 
 
