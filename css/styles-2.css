@@ -1,95 +1,88 @@
-/* Styling for Sub-pages for Project 02 */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Playfair+Display:wght@900&display=swap');
 
-body {
-  height: 100%;
-  width: 100vw;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-background: rgb(9,9,17);
-background: linear-gradient(0deg, rgba(9,9,17,1) 2%, rgba(244,147,85,0.4920343137254902) 50%, rgba(84,160,199,1) 92%, rgba(72,145,185,1) 98%);
-line-height: 1.8em;
+* { /* resets */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
+html { 
+  height: 100%;
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.75em;
+}
 .container {
   margin: 0 auto;
-  width: 93%;
-  max-width: 1000px;
-  display: grid;
+  max-width: 1100px;
 }
 
 a { text-decoration: none; }
 
-.box {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 5px;
-  height: auto;
-  margin-bottom: 10px;
-  margin-top: 4px;
-  background-color: #ffffff;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 10px;
-  border: 20px #ffffff;
+.is-current { color: #FFC107 !important; }
+
+/********* NAV *********/
+.logo {
+  height: 50px;
+  width: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+nav li { margin-left: 65px; }
+.nav-start { margin-left: 0px; }
+nav li a:visited, nav li, a:link { color: black; }
+nav li a:hover, nav li a:active, nav ul { color: #FFC107; }
+
+
+/********* SECTION *********/
+main {
+  margin-top: 75px;
+  padding-bottom: 50px;
 }
 
-/* Formatting for imgages */
+h1, h2 { font-family: 'Playfair Display', serif; }
+h1 { 
+  color: #FFC107;
+  font-size: 3em;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+h2 {
+  color: #f49355;
+  font-size: 1.7em;
+}
 
+section {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 2fr 1.2fr;
+  grid-column-gap: 30px;
+  margin-bottom: 50px;
+}
+section img { 
+  border-radius: 10px;
+  justify-self: end;
+}
+
+/* Formatting of images */
 .restrict {
   max-width: 300px;
-  float: left;
   max-height: 300px;
-  border-radius: 8px;
-  margin-right: 20px;
 
 }
-
 .restrict1 {
   width: 300px;
-  float: left;
   height: 250px;
-  border-radius: 8px;
-  margin-right: 20px;
-
 }
-
-
-/*Formatting for Main*/
-
-
-p {
-    overflow: hidden;
-    margin-top: 0px;
-    padding-bottom: 20px;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-  color: #FFC107;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-h2{ 
-  font-family: 'Playfair Display', serif;
-  font-size: 30px;
-  color: #54a0c7;
- }
-
- h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  color: #f49355;
- }
-
- section {
-  padding-top: 20px;
- }
-
-
