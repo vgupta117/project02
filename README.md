@@ -17,6 +17,6 @@
     Jennifer created new index page "explore your destinations".
 4/2/2021:
     Bianca completed F-Layout for Giza citypage 
-    Vikram updated three remaining pages following Bianca's work
+    Vikram updated three remaining pages following Bianca's work and published the cite to digital scholar 
 
 
