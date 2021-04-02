@@ -41,12 +41,31 @@ a { text-decoration: none; }
 /* Formatting for imgages */
 
 .restrict {
-  max-width: 350px;
-  float: right;
-  max-height: 350px;
-  padding: 20px;
+  max-width: 300px;
+  float: left;
+  max-height: 300px;
   border-radius: 8px;
+  margin-right: 20px;
 
+}
+
+.restrict1 {
+  width: 300px;
+  float: left;
+  height: 250px;
+  border-radius: 8px;
+  margin-right: 20px;
+
+}
+
+
+/*Formatting for Main*/
+
+
+p {
+    overflow: hidden;
+    margin-top: 0px;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -60,15 +79,17 @@ h1 {
 h2{ 
   font-family: 'Playfair Display', serif;
   font-size: 30px;
-  color: #FFC107;
+  color: #54a0c7;
  }
 
  h3 {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
-  color: #FFC107;
+  color: #f49355;
  }
 
-section {
+ section {
   padding-top: 20px;
-}
+ }
+
+
