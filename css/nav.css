@@ -1,0 +1,21 @@
+.logo {
+  height: 50px;
+  width: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+}
+nav li { margin-left: 65px; }
+.nav-start { margin-left: 0px; }
+nav li a:visited, nav li, a:link { color: white; }
+nav li a:hover, nav li a:active, nav ul { color: #FFC107; }

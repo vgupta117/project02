@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Playfair+Display:wght@900&display=swap');
 
 * { /* resets */
   margin: 0px;
@@ -16,8 +16,8 @@ html {
   height: 100%;
   width: 100vw;
   color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .container {
   margin: 0 auto;
@@ -25,30 +25,6 @@ html {
 }
 
 a { text-decoration: none; }
-
-/********* NAV *********/
-.logo {
-  height: 50px;
-  width: auto;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 50px 0px;
-}
-nav ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-}
-nav li { margin-left: 65px; }
-.nav-start { margin-left: 0px; }
-nav li a:visited, nav li, a:link { color: white; }
-nav li a:hover, nav li a:active, nav ul, .emphasis { color: #FFC107; }
-
 
 /********* MAIN *********/
 main {
@@ -77,11 +53,13 @@ main {
   justify-content: flex-end;
 }
 
+.emphasis { color: #FFC107; }
+
 .btn {
   padding: 25px 45px;
   border-radius: 10px;
-  background-color: #FFC107;
   font-weight: 700;
   color: black;
+  background-color: #FFC107;
 }
 a:hover.btn { color: white; }
