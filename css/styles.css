@@ -1,0 +1,18 @@
+/* Styling for Sub-pages for Project 02 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Playfair+Display:wght@900&display=swap');
+
+html {
+    height: 100%;
+  width: 100vw;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  margin: 0 auto;
+ max-width: 1100px;
+}
+
+a { text-decoration: none; }
