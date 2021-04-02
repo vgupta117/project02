@@ -16,7 +16,7 @@
 4/1/2021:
     Jennifer created new index page "explore your destinations".
 4/2/2021:
-    Bianca completed F-Layout for Giza citypage, removed Stats for each city (clashed with F-Layout)
+    Bianca completed F-Layout for Giza citypage, removed Stats for each city (clashed with F-Layout, further edited the style and css for each page
     Vikram updated three remaining pages following Bianca's work and published the cite to digital scholar 
 
 
